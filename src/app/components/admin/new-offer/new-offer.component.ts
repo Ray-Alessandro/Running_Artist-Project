@@ -17,15 +17,20 @@ export class NewOfferComponent {
   
   constructor(private formBuilder: FormBuilder, private api: HttpDataService, private router: Router, private route: ActivatedRoute, private _snackBar: MatSnackBar) {
     this.offerCreateForm = this.formBuilder.group({
-      title: ['',Validators.required], // Valor inicial del campo Title
-      description: ['',Validators.required], // Valor inicial del campo Description
+      title: ['', [
+        Validators.required,   
+        Validators.maxLength(60)
+      ]], 
+      description: ['',Validators.required], 
       points: ['',[
           Validators.required,
-          Validators.pattern(/^[0-9]+$/), ],
+          Validators.pattern(/^[0-9]+$/),
+          Validators.max(100)
+        ],
       ],
       businessId: ['',[
-        Validators.required,
-        Validators.pattern(/^[0-9]+$/), ],
+          Validators.required,
+          Validators.pattern(/^[0-9]+$/), ],
     ]
     });
   }
@@ -59,7 +64,7 @@ export class NewOfferComponent {
     if(this.offerCreateForm.valid){
       this.newOffer = this.offerCreateForm.value;
       this.createOffer();
-      this.router.navigate(['/offers']);
+      this.router.navigate(['/business/offers']);
     }
     else{
       alert("Formulario no válido");

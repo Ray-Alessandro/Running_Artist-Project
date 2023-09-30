@@ -1,7 +1,14 @@
 .container{
     background: linear-gradient(to right, #d0f3f0, #8febb7); /* Cambia background-color a background */
     background-attachment: fixed;
+    min-height: 100vh;
 }
+
+
+table{
+    width: 95rem;
+}
+
 
 .table-container{
     width: 90%;

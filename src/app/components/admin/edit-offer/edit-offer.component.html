@@ -8,6 +8,7 @@
               <mat-label>Title</mat-label>
               <input matInput aria-label="Title Input" formControlName="title">
               <mat-error *ngIf="offerEditForm.get('title')?.hasError('required')">Title is required.</mat-error>
+              <mat-error *ngIf="offerEditForm.get('title')?.hasError('maxlength')">Title should not exceed 60 characters.</mat-error>
             </mat-form-field>
           
             <mat-form-field class="ctn-input">
@@ -21,6 +22,7 @@
               <input matInput aria-label="Points Input" formControlName="points">
               <mat-error *ngIf="offerEditForm.get('points')?.hasError('required')">Points is required.</mat-error>
               <mat-error *ngIf="offerEditForm.get('points')?.hasError('pattern')">Invalid points value. Please enter a number.</mat-error>
+              <mat-error *ngIf="offerEditForm.get('points')?.hasError('max')">Points should not exceed 100.</mat-error>
             </mat-form-field>
           
             <mat-form-field class="ctn-input">
@@ -32,8 +34,8 @@
           </div>
           
           <div class="buttons-box">
-            <button id="submitButton" type="submit">Save Changes</button>
-            <button id="cancelButton" type="button" routerLink="/offers">Cancel</button>
+            <button id="submitButton" type="submit">Update</button>
+            <button id="cancelButton" type="button" routerLink="/business/offers">Cancel</button>
           </div>
         </form>
       </div>

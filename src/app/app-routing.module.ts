@@ -7,7 +7,7 @@ import { EditOfferComponent } from './components/admin/edit-offer/edit-offer.com
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
-  {path: 'offers', component: OffersComponent},
+  {path: 'business/offers', component: OffersComponent},
   {path: 'admin/offers/new', component: NewOfferComponent},
   {path: 'admin/offers/edit/:id', component: EditOfferComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'},

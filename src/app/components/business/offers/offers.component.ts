@@ -79,7 +79,7 @@ export class OffersComponent {
     this.httpDataService.deleteOffer(id).subscribe((response: any)=>{
       this.dataSource.data = this.dataSource.data.filter((o: any)=>{
         this.getAllMovies();
-        this.openSnackBar("Pelicula Eliminada");
+        this.openSnackBar("Offer successfully deleted");
         return o.id !== id ? o : false;
       })
     })

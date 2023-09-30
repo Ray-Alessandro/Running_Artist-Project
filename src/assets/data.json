@@ -36,11 +36,11 @@
       "id": "5"
     },
     {
-      "id": "6",
       "title": "Entrada gratuita a eventos deportivos",
       "description": "Obtén una entrada gratuita para un partido de tu deporte favorito en el estadio local.",
       "points": "80",
-      "businessId": "97531"
+      "businessId": "97531",
+      "id": "6"
     },
     {
       "id": "7",
@@ -69,13 +69,6 @@
       "points": "90",
       "businessId": "12309",
       "id": "10"
-    },
-    {
-      "title": "Ray hace una oferta",
-      "description": "Hoal",
-      "points": "612",
-      "businessId": "123",
-      "id": 11
     }
   ]
 }

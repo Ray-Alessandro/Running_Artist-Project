@@ -15,7 +15,7 @@ export class ToolbarComponent {
   }
 
   pageOffers(){
-    this.router.navigate(['/offers']);
+    this.router.navigate(['business/offers']);
   }
 
 }
