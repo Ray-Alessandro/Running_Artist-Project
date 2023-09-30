@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/**/
+.color-snackbar-updated {
+    background-color: rgb(65, 252, 134);
+    color: brown;
+    font-weight: bold;
+}
+
+.color-snackbar-updated button {
+    background-color: rgb(65, 252, 134);
+    color: rgb(243, 236, 236); 
+    font-weight: bold;
+}
+
+.color-snackbar-deleted{
+    background-color: rgb(252, 65, 65);
+    color: brown;
+    font-weight: bold;
+}
+
+.color-snackbar-deleted button {
+    background-color: rgb(252, 65, 65);
+    color: rgb(243, 236, 236); 
+    font-weight: bold;
+}

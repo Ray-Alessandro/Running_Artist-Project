@@ -1,0 +1,81 @@
+.container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 0 20px;
+    border-radius: 20px;/*Haz que tenga un borde sombreado*/
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.edits{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.edits h2{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.edits .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.ctn-input{
+    width: 80%;
+}
+
+.buttons-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.buttons-box button{
+    width: 40%;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons-box button:nth-child(1){
+    background-color: #2237af;
+}
+
+.buttons-box button:nth-child(2){
+    background-color: #af2222;
+}
+
+.buttons-box button:hover{
+    opacity: 0.9;
+    background-color: #14491d;
+}

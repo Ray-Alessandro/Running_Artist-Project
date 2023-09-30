@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    background-color: #5e5f57;
+}
+
+.RunningArtist{
+    color: linear-gradient(to right, #9ef820ba, #05a8d1);
+    font-size: 2em;
+}
+
+.toolbar-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item{
+    margin: 0 1rem;
+    text-align: right;
+}
+
+.toolbar-btn{
+    color: #31361b;
+    background-color: #0395c1;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.toolbar-btn:hover {
+    background-color: #03f6b5;
+}

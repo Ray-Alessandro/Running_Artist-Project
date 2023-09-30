@@ -1,0 +1,74 @@
+{
+  "offers": [
+    {
+      "title": "Descuento en equipo deportivo",
+      "description": "Obtén un 20% de descuento en la compra de equipo deportivo en nuestra tienda asociada.",
+      "points": "50",
+      "businessId": "12345",
+      "id": "1"
+    },
+    {
+      "title": "Clases de entrenamiento personalizadas",
+      "description": "Accede a 3 clases de entrenamiento personalizadas con nuestros entrenadores certificados.",
+      "points": "100",
+      "businessId": "54321",
+      "id": "2"
+    },
+    {
+      "title": "Nutrición saludable",
+      "description": "Recibe un plan de nutrición personalizado y un 10% de descuento en productos saludables en nuestro supermercado asociado.",
+      "points": "75",
+      "businessId": "67890",
+      "id": "3"
+    },
+    {
+      "title": "Competición de figuras",
+      "description": "Participa en nuestra competición de figuras y gana premios emocionantes.",
+      "points": "150",
+      "businessId": "75440",
+      "id": "4"
+    },
+    {
+      "title": "Masaje deportivo",
+      "description": "Disfruta de un relajante masaje deportivo de 60 minutos en nuestro spa asociado.",
+      "points": "120",
+      "businessId": "24680",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "title": "Entrada gratuita a eventos deportivos",
+      "description": "Obtén una entrada gratuita para un partido de tu deporte favorito en el estadio local.",
+      "points": "80",
+      "businessId": "97531"
+    },
+    {
+      "id": "7",
+      "title": "Suscripción a revista deportiva",
+      "description": "Recibe una suscripción de 3 meses a una revista deportiva de renombre.",
+      "points": "60",
+      "businessId": "86420"
+    },
+    {
+      "id": "8",
+      "title": "Equipo personalizado",
+      "description": "Diseña tu propio equipo deportivo personalizado con un descuento del 15% en nuestra tienda en línea.",
+      "points": "100",
+      "businessId": "35791"
+    },
+    {
+      "id": "9",
+      "title": "Entrenamiento en grupo",
+      "description": "Únete a un entrenamiento en grupo gratuito con otros corredores en el parque local.",
+      "points": "40",
+      "businessId": "64238"
+    },
+    {
+      "title": "Plan de alimentación personalizado",
+      "description": "Recibe un plan de alimentación saludable personalizado de un nutricionista experto.",
+      "points": "90",
+      "businessId": "12309",
+      "id": "10"
+    }
+  ]
+}
