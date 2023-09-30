@@ -1,16 +1,21 @@
-.picture-movie{
-    margin-top: 5px;
-    width: 100px;
-    height: auto;
+.container{
+    background: linear-gradient(to right, #d0f3f0, #8febb7); /* Cambia background-color a background */
+    background-attachment: fixed;
 }
+
 .table-container{
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px auto;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+table, mat-paginator{
+    background: linear-gradient(to right,#f1fff7,#eef7f6); /* Cambia background-color a background */
+    background-attachment: fixed;
 }
 
 .center-text {
@@ -22,6 +27,22 @@
     width: 700px;
 }
 
+.btn-add{
+    margin-left: 2rem;
+    color: #31361b;
+    background-color: #0395c1;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.btn-add:hover{
+    background-color: #03f6b5;
+}
+
 .header-title{
     padding-left: 7%;
 }
@@ -30,15 +51,11 @@
     padding-left: 45px;
 }
 
-.header-genero{
-    padding-left: 50px;
-}
-
 .ctn-filter{
-    margin-top : 20px;
+    padding-top : 20px;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     align-items: center;
 }
 
@@ -83,9 +100,3 @@
   .button-container p {
     margin: 0;
   }
-  
-  
-  
-  
-  
-

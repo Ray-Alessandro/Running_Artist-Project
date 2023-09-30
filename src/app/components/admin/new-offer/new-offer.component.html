@@ -1,1 +1,40 @@
-<p>new-offer works!</p>
+<div class="container">
+    <div class="edit-box">
+        <form class="edits" method="put" [formGroup]="offerCreateForm" (submit)="onSubmit()">
+          <h2>CREATE A NEW OFFER DATA</h2>
+          
+          <div class="inputs">
+            <mat-form-field class="ctn-input">
+              <mat-label>Title</mat-label>
+              <input matInput aria-label="Title Input" formControlName="title">
+              <mat-error *ngIf="offerCreateForm.get('title')?.hasError('required')">Title is required.</mat-error>
+            </mat-form-field>
+          
+            <mat-form-field class="ctn-input">
+              <mat-label>Description</mat-label>
+              <textarea matInput aria-label="Description Input" formControlName="description"></textarea>
+              <mat-error *ngIf="offerCreateForm.get('description')?.hasError('required')">Description is required.</mat-error>
+            </mat-form-field>
+          
+            <mat-form-field class="ctn-input">
+              <mat-label>Points</mat-label>
+              <input matInput aria-label="Points Input" formControlName="points">
+              <mat-error *ngIf="offerCreateForm.get('points')?.hasError('required')">Points is required.</mat-error>
+              <mat-error *ngIf="offerCreateForm.get('points')?.hasError('pattern')">Invalid points value. Please enter a number.</mat-error>
+            </mat-form-field>
+          
+            <mat-form-field class="ctn-input">
+              <mat-label>BusinessID</mat-label>
+              <input matInput aria-label="BusinessID Input" formControlName="businessId">
+              <mat-error *ngIf="offerCreateForm.get('businessId')?.hasError('required')">BusinessID is required.</mat-error>
+              <mat-error *ngIf="offerCreateForm.get('businessId')?.hasError('pattern')">Invalid businessID value. Please enter a number.</mat-error>
+            </mat-form-field>
+          </div>
+          
+          <div class="buttons-box">
+            <button id="submitButton" type="submit">Create</button>
+            <button id="cancelButton" type="button" routerLink="/offers">Cancel</button>
+          </div>
+        </form>
+      </div>
+      </div>

@@ -69,6 +69,13 @@
       "points": "90",
       "businessId": "12309",
       "id": "10"
+    },
+    {
+      "title": "Ray hace una oferta",
+      "description": "Hoal",
+      "points": "612",
+      "businessId": "123",
+      "id": 11
     }
   ]
 }

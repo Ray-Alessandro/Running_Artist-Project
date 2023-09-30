@@ -21,4 +21,5 @@ export class HomeComponent {
       console.log(this.Offers); //this.OfferCount.length;
     });
   }
+
 }

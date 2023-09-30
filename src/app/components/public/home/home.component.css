@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #d0f3f0, #8febb7); /* Cambia background-color a background */
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.center-card {
+    text-align: center;
+}
+
+.count-card {
+    width: 45%;
+    height: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: linear-gradient(to right, #b6dbf0, #e6f6ee);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar elementos verticalmente */
+    text-align: center;
+}
+
+mat-card-title{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0a2c49;
+}
+
+mat-card-subtitle{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0a2c49;
+}
+
+.offer-count {
+    font-size: 90px; /* Tamaño de fuente grande */
+    font-weight: bold; /* Texto en negrita */
+    margin: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 0;
+}
+
+.texto, .cuenta, .boton{
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+.ViewButton {
+    background-color: #4792e2; /* Cambia el color de fondo del botón */
+    color: #fff; /* Cambia el color del texto del botón */
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.ViewButton:hover{
+    background-color: #0a2c49; /* Cambia el color de fondo del botón cuando se pasa el mouse */
+}
+
+@media screen and (max-width: 768px) {
+    .count-card {
+        max-width: 90%; /* Ajusta el ancho máximo para dispositivos más pequeños */
+    }
+}

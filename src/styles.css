@@ -4,6 +4,18 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /**/
+.color-snackbar-created {
+    background-color: rgb(65, 252, 134);
+    color: brown;
+    font-weight: bold;
+}
+
+.color-snackbar-created button {
+    background-color: rgb(65, 252, 134);
+    color: rgb(243, 236, 236); 
+    font-weight: bold;
+}
+
 .color-snackbar-updated {
     background-color: rgb(65, 252, 134);
     color: brown;
@@ -18,12 +30,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .color-snackbar-deleted{
     background-color: rgb(252, 65, 65);
-    color: brown;
-    font-weight: bold;
 }
 
 .color-snackbar-deleted button {
-    background-color: rgb(252, 65, 65);
-    color: rgb(243, 236, 236); 
-    font-weight: bold;
+    background-color: rgb(39, 39, 39);
 }

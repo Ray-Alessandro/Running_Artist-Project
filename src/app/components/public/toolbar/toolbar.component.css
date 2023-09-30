@@ -1,11 +1,15 @@
-.container{
+.mat-toolbar {
     display: flex;
     background-color: #5e5f57;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.RunningArtist{
-    color: linear-gradient(to right, #9ef820ba, #05a8d1);
-    font-size: 2em;
+.RunningArtist {
+    background: linear-gradient(to right, #9ef820ba, #05a8d1);
+    font-size: 1.6em;
+    -webkit-background-clip: text; /* Para aplicar el gradiente al texto */
+    background-clip: text; /* Para aplicar el gradiente al texto */
+    color: transparent; /* Hace que el texto sea transparente para que el gradiente sea visible */
 }
 
 .toolbar-box{
@@ -32,6 +36,7 @@
     font-size: 1.5em;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .toolbar-btn:hover {
